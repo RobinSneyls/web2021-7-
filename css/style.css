@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style : none;
+}
+body{
+	background-image: url(https://i.pinimg.com/originals/8a/b7/e1/8ab7e1ab3efc2331abb0a8332a2f209c.png);
+	font-family: 'Raleway', sans-serif;
+	 background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{ 
+	background-color:#B0C4DE	 ;
+	 height:80px;
+}
+footer{
+	background-color:#696969;
+	height: 100px;
+
+}
+.bg-main{
+	background-color:#ccc;
+}
+
+.logo{
+	height:60px;
+
+}
+.logo__text{
+	background-color:#696969;
+	color: white;
+}
+.menu{ 	
+	text-align: center;
+	font-size: 25px;
+	max-width:800px;  	
+}
+.menu li{
+	background-color: #696969;
+	color:#B0C4DE ;
+}
+.links{
+	text-align: left;
+	max-width:100%;
+
+}
+.form input{
+	max-width: 100%;
+}
+.form select{
+	max-width: 100%;
+}
+.form textarea{
+	max-width: 100%;
+}
+.form option{
+	max-width:;
+}
+.form{
+	text-align: left;
+	max-width:100%;
+}
+.table{
+	text-align: left;
+	max-width:400px; 
+	
+}
+.footer__container{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+.chet{
+	background-color:#8FB8EA;
+}
+.nechet{
+	background-color:#0A97B0;
+}
+.footer__text{
+	color: white;
+}
+#calculator{
+	max-width: 800px;
+}
+.slider {
+    max-width: 100%;
+    margin: 20px auto;
+    margin-left: 50%;
+}
+
+.slide img {
+    max-width: 95%;
+}
+@media only screen and (max-width: 480px) {
+    .slide  img {
+        max-width: 95%;
+    }
+    .slide{
+        margin: 10px;
+    }
+}
