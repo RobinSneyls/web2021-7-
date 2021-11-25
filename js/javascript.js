@@ -90,6 +90,7 @@ function proiz() {
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
+     console.log("DOM fully loaded and parsed");
     document.getElementById("type").addEventListener("click", hide);
     document.getElementById("type").addEventListener("click", proiz);
     document.getElementById("n2").addEventListener("keyup", proiz);
